@@ -1,0 +1,16 @@
+.title-choose-list{
+    display: none;
+    position: absolute;
+    left: 1em;
+    width: 100px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.title-choose-list > .on{
+    background-color: #F6F7F8;
+    color: #509FE4;
+}

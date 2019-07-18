@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    width: 180px;
+    height: 90px;
+    margin: 10px 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.card.sock{
+    border: 2px solid #ccc;
+}
+.card:hover{
+    box-shadow: 0 10px 5px #ddd;
+}
+.card > .card-color{
+    display: flex;
+    justify-content: center;
+    width: 55px;
+}
+.card > .card-color > .card-color-r{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: green;
+}
+.card > .card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card > .card-text > div{
+    font-size: 12px;
+    text-align: left;
+}
+.card > .card-text > .card-text-state{
+    display: flex;
+    justify-content: flex-start;
+}
+.card > .card-text > .card-text-state > div{
+    width: 43px;
+    height: 13px;
+    border: 1px solid;
+    margin-right: 10px;
+    line-height: 13px;
+}
+.card > .card-text > .card-text-state > .none{
+    display: none;
+}
+.card > .card-text > .card-text-num > span:nth-child(1){
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

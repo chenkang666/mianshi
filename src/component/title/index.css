@@ -1,0 +1,10 @@
+.title{
+    position: relative;
+    text-align: left;
+    line-height: 40px;
+    font-size: 12px;
+    text-indent: 1em;
+}
+.title:hover > .title-choose-list{
+    display: block;
+}
